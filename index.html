@@ -5,76 +5,45 @@
     <title>Galactic Champion - Jasio Edition</title>
     <style>
         body {
-            background-color: #000000;
-            color: white;
-            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+            font-family: sans-serif;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             min-height: 100vh;
             margin: 0;
-            overflow: hidden;
         }
-
-        /* Twoje wielkie okno na grę */
+        /* Pudełko na grę */
         #game-container {
             width: 1000px;
             height: 750px;
             border: 2px solid #444;
-            background-color: #000;
-            position: relative;
         }
-
-        /* Ta gwiazdka zmusza Ruffle do rozciągnięcia się na 1000x750 */
-        #game-container * {
-            width: 100% !important;
-            height: 100% !important;
-            display: block;
+        /* Prosta prośba do Ruffle: bądź duży */
+        ruffle-player {
+            width: 1000px !important;
+            height: 750px !important;
         }
-
-        h1 { 
-            margin-bottom: 10px; 
-            font-size: 22px;
-            letter-spacing: 2px;
-        }
-
-        p { 
-            color: #666; 
-            font-size: 13px; 
-            margin-top: 10px; 
-        }
+        h1 { margin-bottom: 10px; font-size: 20px; }
     </style>
     <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
 </head>
 <body>
 
-    <h1>JASIO EDITION - GALACTIC CHAMPION</h1>
+    <h1>JASIO EDITION - ŁADOWANIE...</h1>
 
     <div id="game-container"></div>
 
-    <p>Czekaj cierpliwie, aż pasek dojdzie do 100%...</p>
-
     <script>
         window.RufflePlayer = window.RufflePlayer || {};
-        window.RufflePlayer.config = {
-            "autoplay": "on",
-            "unmuteOverlay": "hidden",
-            "letterbox": "on",
-            "warnOnUnsupportedContent": false,
-            "forceScale": true,
-            "quality": "high"
-        };
-
         window.addEventListener("load", (event) => {
             const ruffle = window.RufflePlayer.newest();
             const player = ruffle.createPlayer();
             const container = document.getElementById("game-container");
             container.appendChild(player);
-            player.load({
-                url: "game.swf",
-                allowScriptAccess: true,
-            });
+            player.load("game.swf");
         });
     </script>
 </body>
