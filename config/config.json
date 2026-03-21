@@ -2662,7 +2662,7 @@
 				{
 					"background":"background2",
 
-	"aliens":[{"alienID":"Splixon","alienLevel":38,"trainedstr":0.9,"traineddef":0.75,"trainedag":1.0},{"alienID":"Pyronite","alienLevel":37,"trainedstr":0.75,"traineddef":0.7,"trainedag":0.85},{"alienID":"Transylian","alienLevel":36,"trainedstr":0.88,"traineddef":0.6,"trainedag":0.6},{"alienID":"Random","alienLevel":41,"trainedstr":0.8,"traineddef":0.8,"trainedag":0.8}],
+	"aliens":[{"alienID":"Pyronite","alienLevel":35,"trainedstr":0.75,"traineddef":0.85,"trainedag":0.7},{"alienID":"Transylian","alienLevel":38,"trainedstr":0.9,"traineddef":0.75,"trainedag":0.65},{"alienID":"Random","alienLevel":33,"trainedstr":0.9,"traineddef":0.8,"trainedag":0.85},{"alienID":"Nosedeenian","alienLevel":38,"trainedstr":0.7,"traineddef":0.58,"trainedag":0.85}],
 					"items":[]
 				},
 				{

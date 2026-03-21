@@ -60,7 +60,7 @@
 	<!--  BATTLE LOST  -->
 	<!--  ===========  -->
 	
-	<term key="gameLostTitle">PRZEGRALES</term>
+	<term key="gameLostTitle">ALE-BOT</term>
 	<term key="gameLostDescriptionQuickBattle">SPROBUJ PONOWNIE!</term>	
 	<term key="gameLostDescriptionTournament">WYLATUJESZ Z TURNIEJU!!!</term>	
 	
@@ -120,22 +120,22 @@
 	<term key="shopItemsTitle">KUP</term>
 	<term key="shopInventoryTitle">EKWIPUNEK</term>
 	
-	<term key="Heal_1ShopDescription">DAJE MALY BUST ZYCIA</term>	
-	<term key="Heal_2ShopDescription">DAJE SREDNI BUST ZYCIA</term>	
-	<term key="Heal_3ShopDescription">DAJE NAJWIEKSZY BUST ZYCIA</term>	
-	<term key="Courage_1ShopDescription">DAJE MALY BUST ATAKU</term>	
-	<term key="Courage_2ShopDescription">DAJE SREDNI BUST ATAKU</term>	
-	<term key="Courage_3ShopDescription">DAJE NAJWIEKSZY BUST ATAKU</term>	
-	<term key="Hardness_1ShopDescription">DAJE MALY BUST OBRONY</term>	
-	<term key="Hardness_2ShopDescription">DAJE SREDNI BUST OBRONY</term>	
-	<term key="Hardness_3ShopDescription">DAJE NAJWIEKSZY BUST OBRONY</term>	
+	<term key="Heal_1ShopDescription">DAJE MALY BOOST ZYCIA</term>	
+	<term key="Heal_2ShopDescription">DAJE SREDNI BOOST ZYCIA</term>	
+	<term key="Heal_3ShopDescription">DAJE NAJWIEKSZY BOOST ZYCIA</term>	
+	<term key="Courage_1ShopDescription">DAJE MALY BOOST ATAKU</term>	
+	<term key="Courage_2ShopDescription">DAJE SREDNI BOOST ATAKU</term>	
+	<term key="Courage_3ShopDescription">DAJE NAJWIEKSZY BOOST ATAKU</term>	
+	<term key="Hardness_1ShopDescription">DAJE MALY BOOST OBRONY</term>	
+	<term key="Hardness_2ShopDescription">DAJE SREDNI BOOST OBRONY</term>	
+	<term key="Hardness_3ShopDescription">DAJE NAJWIEKSZY BOOST OBRONY</term>	
 	<term key="Adrenalin_1ShopDescription">ZWIEKSZA SZYBKOSC MALO</term>	
 	<term key="Adrenalin_2ShopDescription">ZWIEKSZA SZYBKOSC SREDNIO</term>	
 	<term key="Adrenalin_3ShopDescription">ZWIEKSZA SZYBKOSC DUZO</term>	
 	<term key="Recharge_1ShopDescription">DAJE ENERGIE MALO</term>	
 	<term key="Recharge_2ShopDescription">DAJE ENERGIE SREDNIO</term>	
 	<term key="Recharge_3ShopDescription">DAJE ENERGIE DUZO</term>	
-	<term key="ElixirShopDescription">RETRIEVES ENERGY AND MAGIC</term>		
+	<term key="ElixirShopDescription">ODNAWIA ZYCIE I ENERGIE</term>		
 	
 	
 	<term key="PurifyShopDescription">USUWA ZLE EFEKTY NP. PODPALENIE</term>	
@@ -239,7 +239,7 @@
 	<term key="OrishanName">WODNY NAHAJ</term>
 	<term key="VaxasaurianoName">GIGANTOZAUR</term>
 	<term key="GeocheloneAerioName">TERRAWIATR</term>
-	<term key="AracnochimpanceName">ARACHNO SZYMAPNS</term>
+	<term key="AracnochimpanceName">ARACHNO SZYMPANS</term>
 	<term key="NecrofriggianoName">ZIAB</term>
 	<term key="GourmandName">ZJADALAK</term>
 	<term key="ConductoidName">FEED BACK</term>
@@ -307,7 +307,7 @@
 	<term key="VaxasaurianoAttack1">CIOS</term>
 	<term key="VaxasaurianoAttack2">FALA UDERZENIOWA</term>
 	<term key="VaxasaurianoAttack3">TRZESIENIE ZIEMI</term>
-	<term key="VaxasaurianoAttack4">WZMOCIONA SILA</term>
+	<term key="VaxasaurianoAttack4">WZMOCNIONA SILA</term>
 	
 	<term key="VaxasaurianoDefense1">BLOK</term>
 	<term key="VaxasaurianoDefense2">RYK</term>
@@ -318,7 +318,7 @@
 	<!-- Aracnochimpance -->
 	
 	<term key="AracnochimpanceAttack1">CIOS</term>
-	<term key="AracnochimpanceAttack2">PAJECZ SIEC</term>
+	<term key="AracnochimpanceAttack2">PAJECZA SIEC</term>
 	<term key="AracnochimpanceAttack3">ZELAZNE PIESCI</term>	
 	
 	<term key="AracnochimpanceDefense1">BLOK</term>
@@ -352,8 +352,8 @@
 	
 	<term key="GourmandAttack1">CIOS</term>
 	<term key="GourmandAttack2">POLIZ</term>
-	<term key="GourmandAttack3">ABSROPCJA</term>
-	<term key="GourmandAttack4">KULA ODERZENIOWA</term>
+	<term key="GourmandAttack3">ABSORPCJA</term>
+	<term key="GourmandAttack4">KULA UDERZENIOWA</term>
 	
 	<term key="GourmandDefense1">BLOK</term>
 	<term key="GourmandDefense2">TRAWIENIE</term>
@@ -390,7 +390,17 @@
 	<term key="SplixsonDefense1">BLOK</term>
 	<term key="SplixsonDefense2">PRZYSPIESZENIE</term>
 	
+	<!-- ThepKhufan -->
 	
+	<term key="ThepKhufanAttack1">CIOS</term>
+	<term key="ThepKhufanAttack2">OBEZWLADNIENIE</term>
+	<term key="ThepKhufanAttack3">MROCZNA KLATWA</term>	
+	
+	<term key="ThepKhufanDefense1">BLOK</term>
+	<term key="ThepKhufanDefense2">STAROZYTNE ZAKRYCIE</term>
+	<term key="ThepKhufanDefense3">MUMIFIKACJA</term>
+
+
 	<!--  EFFECTS NAMES  -->
 	
 	<term key="Effect_Heal">LECZENIE</term>
@@ -431,7 +441,7 @@
 	
 	<term key="Item_Elixir_Name">ELIXIR HOKESTAR</term>
 	
-	<term key="Item_Invulnerability_Name">INVULNERABILITY</term>
+	<term key="Item_Invulnerability_Name">NIESMIERTELNOSC</term>
 	
 	<term key="Item_Bonusxp_Name">Dodatkowy XP</term>
 	<term key="Item_Bonusgold_Name">Dodatkowe Zloto</term>
@@ -463,7 +473,7 @@
 	<term key="Watch4Name">Zly Niebieski</term>
 	
 	<term key="Watch5Name">Czerwony</term>
-	<term key="Watch6Name">Fioletowy</term>
+	<term key="Watch6Name">Zielony</term>
 	<term key="Watch7Name">Zolty</term>
 	<term key="Watch8Name">Niebieski</term>
 	
@@ -480,9 +490,9 @@
 	<!--  CARDS NAMES  -->	
 	
 	<term key="Card1Name">ZJADALAK</term>
-	<term key="Card2Name">ARACHNO SZYMPANS</term>
+	<term key="Card2Name">ARACHNO-SZYMPANS</term>
 	<term key="Card3Name">TRANSYLIAN</term>
-	<term key="Card4Name">HEAT BLAST</term>
+	<term key="Card4Name">HEAT-BLAST</term>
 	
 	<term key="Card5Name">ZIAB</term>	
 	<term key="Card6Name">CZTERO REKI</term>
