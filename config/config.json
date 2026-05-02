@@ -1673,7 +1673,7 @@
 		
 		{
             "id": "ThepKhufan",
-			"ratios":{"hp":75,"mp":46,"str":65,"def":50,"ag":79,"mv":8,"xv":45,"creationchance":15,"alienlevelreq":800000000000}, 
+			"ratios":{"hp":75,"mp":46,"str":65,"def":50,"ag":79,"mv":8,"xv":45,"creationchance":15,"alienlevelreq":10}, 
 			"hitsoundinfo":{"soundid":"","volume":1},
 			"skills":
             [
@@ -2338,7 +2338,7 @@
 			"level_req":3,
 			"alien_req":"none",
 			
-			"reward_gold":150,
+			"reward_gold":250,
 			"reward_xp":60,
 			"reward_item":"Heal_2",
 			"reward_alien":"none",			
@@ -2404,7 +2404,7 @@
 			"level_req":7,
 			"alien_req":"none",
 			
-			"reward_gold":500,
+			"reward_gold":1250,
 			"reward_xp":140,
 			"reward_item":"Elixir",			
 			"reward_alien":"Pyronite",			
@@ -2441,7 +2441,7 @@
 			"level_req":10,
 			"alien_req":"none",
 			
-			"reward_gold":700,
+			"reward_gold":1750,
 			"reward_xp":800,
 			"reward_item":"none",			
 			"reward_alien":"Necrofriggiano",			
@@ -2478,7 +2478,7 @@
 			"level_req":13,
 			"alien_req":"none",
 			
-			"reward_gold":1400,
+			"reward_gold":3500,
 			"reward_xp":1000,
 			"reward_item":"Elixir",			
 			"reward_alien":"Tetramand",			
@@ -2518,7 +2518,7 @@
 			"level_req":16,
 			"alien_req":"none",
 			
-			"reward_gold":2000,
+			"reward_gold":5600,
 			"reward_xp":1500,
 			"reward_item":"Revive",			
 			"reward_alien":"Conductoid",			
@@ -2561,7 +2561,7 @@
 			"level_req":20,
 			"alien_req":"none",
 			
-			"reward_gold":5000,
+			"reward_gold":11000,
 			"reward_xp":4000,
 			"reward_item":"none",
 			"reward_alien":"none",			
@@ -2603,12 +2603,13 @@
 			"level_req":30,
 			"alien_req":"none",
 			
-			"reward_gold":7500,
-			"reward_item":"Purify",
+			"reward_gold":20000,
+			"reward_item":"Revive",
 			"reward_alien":"none",			
-			
+			"reward_xp":10055,
+
 			"min_team_aliens":1,
-			"max_team_aliens":5,	
+			"max_team_aliens":4,	
 			
 			"fightsInfos":
 			[
@@ -2629,7 +2630,7 @@
 				},
 				{
 					"background":"background2",
-					"aliens":[{"alienID":"Vaxasauriano","alienLevel":30,"trainedstr":1.7,"traineddef":1.5,"trainedag":1.2},{"alienID":"Conductoid","alienLevel":30,"trainedstr":1.3,"traineddef":1.3,"trainedag":2.0},{"alienID":"Transylian","alienLevel":30,"trainedstr":1.3,"traineddef":1.4,"trainedag":1.3},{"alienID":"Gourmand","alienLevel":35,"trainedstr":2.5,"traineddef":2.5,"trainedag":3.0}],
+					"aliens":[{"alienID":"Vaxasauriano","alienLevel":30,"trainedstr":1.2,"traineddef":1.3,"trainedag":1.2},{"alienID":"Conductoid","alienLevel":30,"trainedstr":1.3,"traineddef":1.3,"trainedag":1.3},{"alienID":"Transylian","alienLevel":30,"trainedstr":1.3,"traineddef":1.4,"trainedag":1.3},{"alienID":"Gourmand","alienLevel":35,"trainedstr":2.0,"traineddef":2.0,"trainedag":2.0}],
 					"items":[]
 				}
 			]			
@@ -2644,7 +2645,7 @@
 			"level_req":47,
 			"alien_req":"none",
 			
-			"reward_gold":8800,
+			"reward_gold":18800,
 			"reward_xp":17000,
 			"reward_item":"none",
 			"reward_alien":"none",			
@@ -2673,7 +2674,7 @@
 				{
 					"background":"background1",
 
-	"aliens":[{"alienID":"Splixon","alienLevel":51,"trainedstr":0.95,"traineddef":0.9,"trainedag":0.94},{"alienID":"Necrofriggiano","alienLevel":54,"trainedstr":0.9,"traineddef":0.8,"trainedag":0.85},{"alienID":"Conductoid","alienLevel":55,"trainedstr":1.1,"traineddef":0.9,"trainedag":1.5},{"alienID":"Insectoid","alienLevel":60,"trainedstr":1.5,"traineddef":1.7,"trainedag":2.0}],
+	"aliens":[{"alienID":"Splixson","alienLevel":51,"trainedstr":0.95,"traineddef":0.9,"trainedag":0.94},{"alienID":"Necrofriggiano","alienLevel":54,"trainedstr":0.9,"traineddef":0.8,"trainedag":0.85},{"alienID":"Conductoid","alienLevel":55,"trainedstr":1.1,"traineddef":0.9,"trainedag":1.5},{"alienID":"Insectoid","alienLevel":60,"trainedstr":1.5,"traineddef":1.7,"trainedag":2.0}],
 					  
                                 	 "items":[]
 				}
@@ -2782,5 +2783,5 @@
 			
 		{"alien":"Galilean","alienxp":0,"trainedstr":0,"traineddef":0,"trainedag":0}
 	],
-	"availablealienslist":"Vaxasauriano,Necrofriggiano,Insectoid,Nosedeenian,Splixson,Pyronite,Conductoid,Transylian,Gourmand,Aracnochimpance,Tetramand,PelarotaAlburiano"
+	"availablealienslist":"Vaxasauriano,Necrofriggiano,Insectoid,Nosedeenian,Splixson,Pyronite,Conductoid,Transylian,Gourmand,Aracnochimpance,Tetramand,ThepKhufan"
 }
