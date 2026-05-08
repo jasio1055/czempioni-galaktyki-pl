@@ -10,20 +10,8 @@
 	<!--  CHEAT CODES  -->
 	<!--  ===========  -->
 
-        <term key="codes-alien-Orishan">14</term>
-        <term key="codes-alien-Talpaedan">13</term>
-        <term key="codes-alien-Galilean">12</term>
-        <term key="codes-alien-Kinceleran">11</term>
-        <term key="codes-alien-GeocheloneAerio">10</term>
-        <term key="codes-alien-PelarotaAlburiano">9</term>
-        <term key="codes-alien-Terradino">8</term>
-        <term key="codes-alien-Ectonurite">7</term>
+
         <term key="codes-alien-ThepKhufan">6</term>
-        <term key="codes-alien-Gimlinopithecus">5</term>
-        <term key="codes-alien-Segmentasapien">4</term>
-        <term key="codes-alien-Loboan">3</term>
-        <term key="codes-alien-Methanosian">1</term>
-	<term key="codes-alien-Appoplexian">2</term>
 	<term key="codes-alien-Transylian">Bomboclat</term>	
 	<term key="codes-item-Heal_3-10">Leczenie</term>
 	<term key="codes-item-Courage_3-10">Sila</term>
