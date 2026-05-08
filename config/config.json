@@ -2704,7 +2704,8 @@
 			"Purify",
 			"Elixir",			
 			"Switch",			
-			"Revive"			
+			"Revive",
+			"Invulnerability"
 		],		
 		"options":
 		[
@@ -2727,8 +2728,10 @@
 			{"type":"item", "id": "Elixir","price":300,"lvl":10},			
 			{"type":"item", "id": "Switch","price":200,"lvl":8},			
 			{"type":"item", "id": "Revive","price":500,"lvl":12},
-			
-			
+			{"type":"item", "id": "Invulnerability","price":20000,"lvl":25},
+			{"type":"item", "id": "Doubleaction","price":5000,"lvl":20},
+			{"type":"item", "id": "SwitchE","price":2500,"lvl":15},
+
 			{"type":"alien", "id":"Insectoid","price":200,"lvl":1},
 			{"type":"alien", "id":"Nosedeenian","price":200,"lvl":1},
 			{"type":"alien", "id":"Splixson","price":200,"lvl":1},

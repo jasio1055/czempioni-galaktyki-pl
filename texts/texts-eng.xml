@@ -10,21 +10,8 @@
 	<!--  CHEAT CODES  -->
 	<!--  ===========  -->
 
-        <term key="codes-alien-Orishan">14</term>
-        <term key="codes-alien-Talpaedan">13</term>
-        <term key="codes-alien-Galilean">12</term>
-        <term key="codes-alien-Kinceleran">11</term>
-        <term key="codes-alien-GeocheloneAerio">10</term>
-        <term key="codes-alien-PelarotaAlburiano">9</term>
-        <term key="codes-alien-Terradino">8</term>
-        <term key="codes-alien-Ectonurite">7</term>
         <term key="codes-alien-ThepKhufan">6</term>
-        <term key="codes-alien-Gimlinopithecus">5</term>
-        <term key="codes-alien-Segmentasapien">4</term>
-        <term key="codes-alien-Loboan">3</term>
-        <term key="codes-alien-Methanosian">1</term>
-	<term key="codes-alien-Appoplexian">2</term>
-	<term key="codes-alien-Transylian">Bomboclat</term>	
+      	<term key="codes-alien-Transylian">Bomboclat</term>	
 	<term key="codes-item-Heal_3-10">Leczenie</term>
 	<term key="codes-item-Courage_3-10">Sila</term>
 	<term key="codes-item-Hardness_3-10">Obrona</term>
@@ -36,7 +23,10 @@
 	<term key="codes-item-Revive-10">Odrodzenie</term>	
 	<term key="codes-gold-500">Start</term>	
 	<term key="codes-xp-2500">Poziom</term>	
-	
+	<term key="codes-item-Invulnerability-1">absolutny_modder_nieumrzesz</term>
+        <term key="codes-item-SwitchE-5">jeslitowpiszeszdostanieszitemktoryzamieniakosmiteprzeciwnika</term>
+        <term key="codes-item-Doubleaction-5">megadobrarzeczktorabardzopomozenowymgraczompozdrawiam</term>
+
 	<!--  SPLASH  -->
 	<!--  ======  -->
 	
@@ -68,7 +58,7 @@
 	<!--  ===========  -->
 	
 	<term key="gameWonTitle">WYGRALES</term>
-	<term key="gameWonDescription">Zdobyte Doswiadczenie</term>	
+	<term key="gameWonDescription">XP</term>	
 	<term key="gameWonLevelUp">Ulepszenie!</term>
 	
 	<!--  BUY CONFIRMATION  -->
@@ -218,7 +208,7 @@
 	
 	<term key="ActionsMenuAttack">ATAK</term>
 	<term key="ActionsMenuDefense">OBRONA</term>
-	<term key="ActionsMenuItem">PRZEDMIOT</term>
+	<term key="ActionsMenuItem">ITEMY</term>
 	
 	<term key="SwapButtonsTitle">KOSMICI</term>
 	
@@ -414,7 +404,8 @@
 	<term key="Effect_Drain">Odplyw</term>
 	<term key="Effect_Paralyze">Paraliz</term>
 	<term key="Effect_Wipe">Wyczyszczenie</term>
-	
+        <term key="Effect_Invulnerability">Niesmiertelnosc</term>
+
 	<!--  ITEM NAMES  -->	
 
 	<term key="Item_Heal_1_Name">ZWYKLE KOKTAJLE</term>
@@ -446,11 +437,11 @@
 	<term key="Item_Bonusxp_Name">Dodatkowy XP</term>
 	<term key="Item_Bonusgold_Name">Dodatkowe Zloto</term>
 	
-	<term key="Item_SwitchE_Name">Proto-tech</term>
+	<term key="Item_SwitchE_Name">OMNITRIX PRZECIWNIKA</term>
 	<term key="Item_Switch_Name">OMNITRIX</term>
 	
 	<term key="Item_Revive_Name">KWIAT ENERGII</term>
-	<term key="Item_Doubleaction_Name">GALVAN-TEC</term>
+	<term key="Item_Doubleaction_Name">PODWÓJNA TURA</term>
 	
 	<!--  TOURNAMENT NAMES  -->	
 	
