@@ -10,8 +10,13 @@
 	<!--  CHEAT CODES  -->
 	<!--  ===========  -->
 
+<<<<<<< HEAD
         <term key="codes-alien-ThepKhufan">6</term>
       	<term key="codes-alien-Transylian">Bomboclat</term>	
+=======
+    <term key="codes-alien-ThepKhufan">6</term>
+	<term key="codes-alien-Transylian">Bomboclat</term>	
+>>>>>>> 3f46355e5af83b2576976beafabef7e369d1d16e
 	<term key="codes-item-Heal_3-10">Leczenie</term>
 	<term key="codes-item-Courage_3-10">Sila</term>
 	<term key="codes-item-Hardness_3-10">Obrona</term>
@@ -24,9 +29,15 @@
 	<term key="codes-gold-500">Start</term>	
 	<term key="codes-xp-2500">Poziom</term>	
 	<term key="codes-item-Invulnerability-1">absolutny_modder_nieumrzesz</term>
+<<<<<<< HEAD
         <term key="codes-item-SwitchE-5">jeslitowpiszeszdostanieszitemktoryzamieniakosmiteprzeciwnika</term>
         <term key="codes-item-Doubleaction-5">megadobrarzeczktorabardzopomozenowymgraczompozdrawiam</term>
 
+=======
+    <term key="codes-item-SwitchE-5">jeslitowpiszeszdostanieszitemktoryzamieniakosmiteprzeciwnika</term>
+    <term key="codes-item-Doubleaction-5">megadobrarzeczktorabardzopomozenowymgraczompozdrawiam</term>
+	
+>>>>>>> 3f46355e5af83b2576976beafabef7e369d1d16e
 	<!--  SPLASH  -->
 	<!--  ======  -->
 	
