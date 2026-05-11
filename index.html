@@ -204,9 +204,31 @@
         document.getElementById('win-count').innerText = currentWins;
 
         function addWin() {
+            const now = new Date().getTime();
+            const lastWin = localStorage.getItem('last_win_time') || 0;
+            const cooldown = 7 * 60 * 1000; // 7 minut w milisekundach
+
+            if (now - lastWin < cooldown) {
+                const remaining = Math.ceil((cooldown - (now - lastWin)) / 60000);
+                alert("Jeszcze nie teraz! Turniej trwa. Spróbuj za " + remaining + " min.");
+                return;
+            }
+
             currentWins++;
             localStorage.setItem('jasio1055_wins', currentWins);
+            localStorage.setItem('last_win_time', now);
             document.getElementById('win-count').innerText = currentWins;
+            
+            const btn = document.querySelector('.win-button');
+            btn.style.background = "#555";
+            btn.style.cursor = "not-allowed";
+            btn.innerText = "ZAPISANO! (Czekaj 7 min)";
+            
+            setTimeout(() => {
+                btn.style.background = "#00ff00";
+                btn.style.cursor = "pointer";
+                btn.innerText = "Zapisz wygraną 🏆";
+            }, cooldown);
         }
 
         // ŁADOWANIE RUFFLE
