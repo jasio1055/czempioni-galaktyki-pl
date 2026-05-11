@@ -20,6 +20,42 @@
             padding-top: 20px;
             margin: 0;
         }
+        
+        /* PANEL LICZNIKA */
+        #win-panel {
+            width: 1000px;
+            background: #111;
+            border: 2px solid #00ff00;
+            margin-bottom: 10px;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-sizing: border-box;
+            box-shadow: 0 0 10px rgba(0, 255, 0, 0.2);
+        }
+        .win-display {
+            font-size: 18px;
+            font-weight: bold;
+            color: #00ff00;
+        }
+        #win-count { font-size: 24px; margin-left: 10px; }
+        
+        .win-button {
+            background: #00ff00;
+            color: #000;
+            border: none;
+            padding: 8px 20px;
+            font-weight: bold;
+            cursor: pointer;
+            text-transform: uppercase;
+            transition: 0.2s;
+        }
+        .win-button:hover {
+            background: #fff;
+            box-shadow: 0 0 10px #fff;
+        }
+
         #game-container {
             width: 1000px;
             height: 750px;
@@ -81,7 +117,13 @@
 </head>
 <body>
 
-    <h1>MOD-Stworzony przez jasio1055, Gemini stworzyło stronę.Informacja-poczekaj 25 sekund, gra się załaduje</h1>
+    <h1>MOD-Stworzony przez jasio1055, Gemini stworzyło stronę. Poczekaj 25 sekund na załadowanie gry.</h1>
+
+    <!-- PANEL LICZNIKA ZWYCIĘSTW -->
+    <div id="win-panel">
+        <div class="win-display">TWOJE WYGRANE TURNIEJE: <span id="win-count">0</span></div>
+        <button class="win-button" onclick="addWin()">Zapisz wygraną 🏆</button>
+    </div>
 
     <div id="game-container"></div>
 
@@ -124,7 +166,7 @@
           <td>Wpisz kod: <span class="code">Bomboclat</span></td>
         </tr>
         <tr>
-          <td><img src="mumia.png" alt="Mumia" class="alien-thumb"></td>
+          <td><img src="mumia.png" alt="Mumia (MOD)" class="alien-thumb"></td>
           <td>Mumia</td>
           <td>Wpisz kod: <span class="code">6</span></td>
         </tr>
@@ -157,6 +199,17 @@
     </div>
 
     <script>
+        // LOGIKA LICZNIKA W LOCALSTORAGE
+        let currentWins = localStorage.getItem('jasio1055_wins') || 0;
+        document.getElementById('win-count').innerText = currentWins;
+
+        function addWin() {
+            currentWins++;
+            localStorage.setItem('jasio1055_wins', currentWins);
+            document.getElementById('win-count').innerText = currentWins;
+        }
+
+        // ŁADOWANIE RUFFLE
         window.RufflePlayer = window.RufflePlayer || {};
         window.addEventListener("load", (event) => {
             const ruffle = window.RufflePlayer.newest();
@@ -166,6 +219,7 @@
             player.load("game.swf");
         });
 
+        // OBSŁUGA ROZWIJANIA LISTY
         var coll = document.getElementsByClassName("collapsible");
         for (var i = 0; i < coll.length; i++) {
           coll[i].addEventListener("click", function() {
