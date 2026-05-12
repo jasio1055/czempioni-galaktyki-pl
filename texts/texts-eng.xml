@@ -14,10 +14,10 @@
         <term key="codes-alien-ThepKhufan">6</term>
 	<term key="codes-alien-Transylian">Bomboclat</term>	
 	<term key="codes-item-Heal_3-10">Leczenie</term>
-	<term key="codes-item-Courage_3-10">Sila</term>
+	<term key="codes-item-Courage_3-10">Siła</term>
 	<term key="codes-item-Hardness_3-10">Obrona</term>
-	<term key="codes-item-Adrenalin_3-10">Szybkosc</term>
-	<term key="codes-item-Recharge_3-10">Nowosc</term>
+	<term key="codes-item-Adrenalin_3-10">Szybkość</term>
+	<term key="codes-item-Recharge_3-10">Nowość</term>
 	<term key="codes-item-Purify-10">Efekt</term>
 	<term key="codes-item-Elixir-10">Potki</term>
 	<term key="codes-item-Switch-10">Omnitrix</term>
@@ -25,8 +25,8 @@
 	<term key="codes-gold-500">Start</term>	
 	<term key="codes-xp-2500">Poziom</term>	
 	<term key="codes-item-Invulnerability-1">absolutny_modder_nieumrzesz</term>
-        <term key="codes-item-SwitchE-5">jeslitowpiszeszdostanieszitemktoryzamieniakosmiteprzeciwnika</term>
-        <term key="codes-item-Doubleaction-5">megadobrarzeczktorabardzopomozenowymgraczompozdrawiam</term>
+        <term key="codes-item-SwitchE-5">jeślitowpiszeszdostanieszitemktóryzamieniakosmitęprzeciwnika</term>
+        <term key="codes-item-Doubleaction-5">megadobrarzeczktórabardzopomożenowymgraczompozdrawiam</term>
 
 	<!--  SPLASH  -->
 	<!--  ======  -->
